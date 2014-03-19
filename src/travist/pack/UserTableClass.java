@@ -2,6 +2,8 @@ package travist.pack;
 
 public class UserTableClass {
 	
+
+	
 	//user table
 	public static String ID ="_id";
 	public static String TABLE_NAME= "USER";
@@ -12,10 +14,9 @@ public class UserTableClass {
 	public static String SOCIAL="";
 	public static String GSM ="GSM";
 	
-	
-	
-
 	//place table
+	
+	
 	
 	public static String createUserTable(){
 		
