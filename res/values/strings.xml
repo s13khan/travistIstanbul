@@ -3,6 +3,7 @@
 
   
     <string name="app_name">TravistIstanbul</string>
+    <string name="action_settings">Settings</string>
 
 
 </resources>
