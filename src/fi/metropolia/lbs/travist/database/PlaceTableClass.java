@@ -1,4 +1,4 @@
-package travist.pack;
+package fi.metropolia.lbs.travist.database;
 
 public class PlaceTableClass {
 

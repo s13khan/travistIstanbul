@@ -1,4 +1,4 @@
-package travist.pack;
+package fi.metropolia.lbs.travist.offline_map;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -10,6 +10,7 @@ import org.mapsforge.android.maps.MapActivity;
 import org.mapsforge.android.maps.MapView;
 import org.mapsforge.map.reader.header.FileOpenResult;
 
+import fi.metropolia.lbs.travist.TravistIstanbulActivity;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -54,7 +55,7 @@ public class TestOfflineMapActivity extends MapActivity {
 	}
 	
 	/**
-	 * TODO... apace commons has IOUtils to use for file conversion
+	 * TODO... apache commons has IOUtils to use for file conversion
 	 * 
 	 * Handles a problem found with using AssetManager and 
 	 * MapView (from mapsforge), that as MapView requires
